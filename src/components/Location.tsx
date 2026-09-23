@@ -40,27 +40,49 @@ export const Location: React.FC = () => {
                 <span className="italic font-light text-brand-beige-deep">Celebrate</span>
               </h2>
 
-              <div className="flex items-start gap-5 mt-10">
-                <div className="w-12 h-12 bg-stone-50 rounded-full border border-brand-beige/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
-                  <MapPin className="text-brand-beige-deep w-5 h-5" />
+              <div className="flex flex-col gap-10 mt-10">
+                {/* Ceremony Location */}
+                <div className="flex items-start gap-5 group/item">
+                  <div className="w-12 h-12 bg-stone-50 rounded-full border border-brand-beige/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover/item:scale-110 group-hover/item:border-brand-beige-deep transition-all duration-500">
+                    <MapPin className="text-brand-beige-deep w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="text-[9px] uppercase tracking-[0.3em] font-bold text-brand-beige-deep mb-1 block">10:30 AM</span>
+                    <p className="text-2xl font-serif text-stone-800 mb-1">Chiesa Santa Maria Della Stella</p>
+                    <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-3">25 Via Stella Napoli</p>
+                    <a
+                      href="https://maps.google.com/maps/search/Chiesa%20di%20Santa%20Maria%20della%20Stella/@40.85578536987305,14.251765251159668,17z?hl=en"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-brand-beige-deep hover:text-brand-gold text-[10px] uppercase tracking-[0.2em] font-bold transition-colors"
+                    >
+                      <Navigation className="w-3 h-3" />
+                      Open Map
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-2xl font-serif text-stone-800 mb-1">New Grand Lisa Hall</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Via Salvator Rosa, Napoli</p>
-                  
-                  <p className="text-stone-500/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-beige/40">
-                    "A serene and elegant setting where we will begin our new chapter together."
-                  </p>
 
-                  <a
-                    href={liveLocationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 bg-stone-800 text-brand-champagne px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-stone-900 hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] transition-all duration-300 active:scale-95 group/btn"
-                  >
-                    <Navigation className="w-4 h-4 text-brand-gold group-hover/btn:rotate-45 transition-transform duration-300" />
-                    Open Live Location
-                  </a>
+                <div className="w-16 h-[1px] bg-gradient-to-r from-brand-beige/40 to-transparent ml-16" />
+
+                {/* Reception Location */}
+                <div className="flex items-start gap-5 group/item">
+                  <div className="w-12 h-12 bg-stone-50 rounded-full border border-brand-beige/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover/item:scale-110 group-hover/item:border-brand-beige-deep transition-all duration-500">
+                    <MapPin className="text-brand-beige-deep w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="text-[9px] uppercase tracking-[0.3em] font-bold text-brand-beige-deep mb-1 block">12:30 PM Onwards</span>
+                    <p className="text-2xl font-serif text-stone-800 mb-1">New Grand Lisa Hall</p>
+                    <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-3">Via Salvator Rosa, Napoli</p>
+                    <a
+                      href="https://maps.google.com/maps/search/Sa%20New%20Grandlisa/@40.85159683227539,14.24251651763916,17z?hl=en"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-brand-beige-deep hover:text-brand-gold text-[10px] uppercase tracking-[0.2em] font-bold transition-colors"
+                    >
+                      <Navigation className="w-3 h-3" />
+                      Open Map
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

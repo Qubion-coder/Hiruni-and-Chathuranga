@@ -3,11 +3,8 @@ import { motion } from 'motion/react';
 import { Heart, Music, Camera, Utensils, PartyPopper } from 'lucide-react';
 
 const events = [
-  { time: '03:00 PM', title: 'Guest Arrival at Church', icon: Heart, desc: 'Welcoming our loved ones to St. Antony\'s Church, Kongodamulla' },
-  { time: '03:30 PM', title: 'Wedding Ceremony', icon: Music, desc: 'The sacred exchange of vows at the church' },
-  { time: '07:00 PM', title: 'Reception Begins', icon: PartyPopper, desc: 'Welcome to Senuri Grand Castello, Divulapitiya' },
-  { time: '08:00 PM', title: 'Wedding Feast', icon: Utensils, desc: 'A grand celebratory dinner' },
-  { time: '09:30 PM', title: 'Cake Cutting', icon: Camera, desc: 'Sweet moments and photographs' },
+  { time: '10:30 AM', title: 'Wedding Ceremony', icon: Heart, desc: 'Chiesa Santa Maria Della Stella, 25 Via Stella Napoli' },
+  { time: '12:30 PM', title: 'Wedding Reception', icon: PartyPopper, desc: 'New Grand Lisa Hall, Via Salvator Rosa, Napoli' }
 ];
 
 export const Timeline: React.FC = () => {
