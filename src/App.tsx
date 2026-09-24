@@ -88,6 +88,25 @@ export default function App() {
         <CeremonyDetails />
       </div>
 
+      {/* Elegant Full-Width Image Interstitial */}
+      <div className="relative h-[50vh] sm:h-[70vh] w-full overflow-hidden flex items-center justify-center">
+        <img 
+          src="/images/4.jpeg" 
+          alt="Amasha & Chathuranga" 
+          className="absolute inset-0 w-full h-full object-cover opacity-90"
+          style={{ objectPosition: 'center 30%' }}
+        />
+        <div className="absolute inset-0 bg-brand-mocha/20 mix-blend-overlay" />
+        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-white to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white to-transparent" />
+        
+        <div className="relative z-10 text-center px-4">
+          <span className="font-display text-white text-5xl sm:text-7xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
+            Forever & Always
+          </span>
+        </div>
+      </div>
+
       <div className="py-24 sm:py-32 bg-gradient-to-b from-white via-brand-champagne/30 to-brand-ivory relative">
         <Location />
       </div>

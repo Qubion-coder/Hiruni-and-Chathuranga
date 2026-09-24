@@ -179,7 +179,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         }
 
         .text-names {
-          font-family: "Great Vibes", cursive;
+          font-family: "Alex Brush", cursive;
           font-size: 60px;
           line-height: 1.1;
           color: #285d8e;
@@ -192,7 +192,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         }
         
         .text-ampersand {
-          font-family: "Great Vibes", cursive;
+          font-family: "Alex Brush", cursive;
           font-size: 36px;
           display: block;
           margin: -2px 0;
