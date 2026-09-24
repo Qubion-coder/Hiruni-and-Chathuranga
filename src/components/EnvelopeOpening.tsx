@@ -87,7 +87,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         .envelope-base {
           position: absolute;
           inset: 0;
-          background: linear-gradient(145deg, #f0f8ff, #e6f2ff);
+          background: url("/images/back.jpg") center/cover no-repeat;
           border-radius: 6px;
           box-shadow: 0 30px 60px -15px rgba(16,78,139,0.3), 0 0 0 1px rgba(95,158,160,0.1);
           z-index: 1;
@@ -115,7 +115,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         .card-border {
           position: absolute;
           inset: 18px;
-          border: 1.5px solid rgba(95,158,160,0.5);
+          border: 1.5px solid rgba(135,174,191,0.5);
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -128,7 +128,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           content: '';
           position: absolute;
           inset: 7px;
-          border: 0.5px solid rgba(95,158,160,0.2);
+          border: 0.5px solid rgba(135,174,191,0.2);
         }
 
         /* Corner Ornaments */
@@ -160,7 +160,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         .divider-diamond {
           width: 6px;
           height: 6px;
-          background: #5f9ea0;
+          background: #87aebf;
           transform: rotate(45deg);
           opacity: 0.7;
         }
@@ -171,18 +171,18 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-size: 10px;
           letter-spacing: 0.45em;
           text-transform: uppercase;
-          color: #4682b4;
+          color: #87aebf;
           margin-bottom: 20px;
           margin-top: auto;
           z-index: 2;
-          font-weight: 400;
+          font-weight: 500;
         }
 
         .text-names {
           font-family: "Great Vibes", cursive;
           font-size: 60px;
           line-height: 1.1;
-          color: #104e8b;
+          color: #285d8e;
           margin: 0 0 10px 0;
           font-weight: 400;
           z-index: 2;
@@ -193,11 +193,10 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         
         .text-ampersand {
           font-family: "Great Vibes", cursive;
-          font-size: 40px;
+          font-size: 36px;
           display: block;
           margin: -2px 0;
-          color: #5f9ea0;
-          text-shadow: 0 1px 2px rgba(95,158,160,0.3);
+          color: #4e869f;
         }
 
         .text-details {
@@ -205,29 +204,29 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-size: 9.5px;
           letter-spacing: 0.22em;
           text-transform: uppercase;
-          color: #104e8b;
+          color: #87aebf;
           line-height: 2.2;
           margin-bottom: auto;
           z-index: 2;
-          font-weight: 300;
+          font-weight: 500;
         }
 
         .text-date {
           display: block;
           margin: 12px 0;
           font-size: 11px;
-          font-weight: 500;
+          font-weight: 600;
           letter-spacing: 0.28em;
-          color: #4682b4;
+          color: #87aebf;
         }
 
         .text-church {
           font-family: "Cormorant Garamond", serif;
-          font-size: 14px;
+          font-size: 15px;
           font-style: italic;
-          font-weight: 400;
+          font-weight: 500;
           letter-spacing: 0.1em;
-          color: #4682b4;
+          color: #87aebf;
           margin-top: 4px;
           text-transform: none;
         }
@@ -239,8 +238,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           left: 0;
           width: 66%;
           height: 100%;
-          background: linear-gradient(135deg, #e6f2ff 0%, #d0e6f5 50%, #e6f2ff 100%);
-          background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+          background: url("/images/back.jpg") center/cover no-repeat;
           border-right: 1px solid rgba(95,158,160,0.15);
           box-shadow: 10px 0 30px -10px rgba(16,78,139,0.25);
           transform-origin: left center;
@@ -422,22 +420,18 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
 
               <div className="text-eyebrow" style={{ marginTop: guestName ? '10px' : 'auto' }}>Promise of Love</div>
 
-              <div className="divider">
-                <div className="divider-line" />
+              <div className="divider" style={{ margin: "10px 0" }}>
                 <div className="divider-diamond" />
-                <div className="divider-line" />
               </div>
 
               <h1 className="text-names">
-                Hiruni
+                Amasha
                 <span className="text-ampersand">&</span>
                 Chathuranga
               </h1>
 
-              <div className="divider">
-                <div className="divider-line" />
+              <div className="divider" style={{ margin: "10px 0" }}>
                 <div className="divider-diamond" />
-                <div className="divider-line" />
               </div>
 
               <div className="text-details">

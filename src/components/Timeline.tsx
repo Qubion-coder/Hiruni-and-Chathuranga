@@ -3,8 +3,8 @@ import { motion } from 'motion/react';
 import { Heart, Music, Camera, Utensils, PartyPopper } from 'lucide-react';
 
 const events = [
-  { time: '10:30 AM', title: 'Wedding Ceremony', icon: Heart, desc: 'Chiesa Santa Maria Della Stella, 25 Via Stella Napoli' },
-  { time: '12:30 PM', title: 'Wedding Reception', icon: PartyPopper, desc: 'New Grand Lisa Hall, Via Salvator Rosa, Napoli' }
+  { time: '10:30 AM', title: 'Church Ceremony', icon: Heart, desc: 'Chiesa Santa Maria Della Stella, 25 Via Stella Napoli' },
+  { time: '12:30 PM', title: 'Wedding Reception', icon: PartyPopper, desc: 'New Grand Lisa Hall, Via Salvator Rosa n:225 grand lisa, Napoli' }
 ];
 
 export const Timeline: React.FC = () => {

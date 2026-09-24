@@ -24,7 +24,7 @@ ${generatedLink}
 Your presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.
 
 With love,
-❤️ Chathuranga & Hiruni`;
+❤️ Chathuranga & Amasha`;
 
   const copyToClipboard = (text: string, successMessage: string) => {
     navigator.clipboard.writeText(text).then(() => {

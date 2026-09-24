@@ -21,7 +21,7 @@ export const CoupleDetails: React.FC = () => {
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-beige-deep/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm">
-            Hiruni <span className="italic text-brand-beige-deep font-light mx-2">&</span> Chathuranga
+            Amasha <span className="italic text-brand-beige-deep font-light mx-2">&</span> Chathuranga
           </h2>
         </motion.div>
       </div>
@@ -63,7 +63,7 @@ export const CoupleDetails: React.FC = () => {
                 e.currentTarget.src = "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800&h=1000";
                 e.currentTarget.onerror = null;
               }}
-              alt="Hiruni and Chathuranga"
+              alt="Amasha and Chathuranga"
               className="w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
             />
             {/* Elegant inner shadow & overlay */}
@@ -91,7 +91,7 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
             <span className="text-brand-beige-deep uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Hiruni</h3>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Amasha</h3>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Daughter of Mr. W. Anura Chithralal<br />& Mrs. Alexida Ruwanganee</p>
           </div>
           <div className="hidden lg:flex justify-start mt-8">

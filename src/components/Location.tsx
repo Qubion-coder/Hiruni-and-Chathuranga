@@ -72,7 +72,7 @@ export const Location: React.FC = () => {
                   <div>
                     <span className="text-[9px] uppercase tracking-[0.3em] font-bold text-brand-beige-deep mb-1 block">12:30 PM Onwards</span>
                     <p className="text-2xl font-serif text-stone-800 mb-1">New Grand Lisa Hall</p>
-                    <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-3">Via Salvator Rosa, Napoli</p>
+                    <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-3">Via Salvator Rosa n:225 grand lisa, Napoli</p>
                     <a
                       href="https://maps.google.com/maps/search/Sa%20New%20Grandlisa/@40.85159683227539,14.24251651763916,17z?hl=en"
                       target="_blank"

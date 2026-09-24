@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
       >
         <img
           src="/images/1.jpg"
-          alt="Hiruni and Chathuranga"
+          alt="Amasha and Chathuranga"
           className="w-full h-full object-cover opacity-90"
           style={{ objectPosition: 'center 20%' }}
         />
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[140%] bg-white/40 blur-[50px] sm:blur-[80px] rounded-full pointer-events-none" />
 
             <h1 className="relative text-6xl sm:text-[7rem] lg:text-[9.5rem] font-display text-stone-800 leading-[1.1] sm:leading-[0.9] drop-shadow-sm">
-              Hiruni <br className="sm:hidden" />
+              Amasha <br className="sm:hidden" />
               <span className="text-brand-beige-deep italic font-light mx-2 sm:mx-6 text-5xl sm:text-[6rem] lg:text-[8rem] inline-block -translate-y-2 sm:-translate-y-6">&</span>
               <br className="sm:hidden" />
               Chathuranga

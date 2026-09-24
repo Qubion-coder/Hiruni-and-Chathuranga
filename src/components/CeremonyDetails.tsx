@@ -54,7 +54,7 @@ export const CeremonyDetails: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-beige-deep transition-colors duration-500">10:30 AM</h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Wedding Ceremony — Chiesa Santa Maria Della Stella, Napoli</p>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Church Ceremony — Chiesa Santa Maria Della Stella, Napoli</p>
                 </div>
               </div>
 
@@ -121,7 +121,7 @@ export const CeremonyDetails: React.FC = () => {
               <div className="flex-1">
                 <h4 className="font-display text-2xl sm:text-4xl text-stone-800 mb-1 sm:mb-2 tracking-tight">The Reception</h4>
                 <p className="text-stone-500/90 font-serif text-sm sm:text-base leading-relaxed">
-                  Followed by a grand celebratory lunch and festivities at New Grand Lisa Hall, Via Salvator Rosa.
+                  Followed by a grand celebratory lunch and festivities at New Grand Lisa Hall, Via Salvator Rosa n:225 grand lisa.
                 </p>
               </div>
               <div className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-brand-champagne rounded-full border border-brand-beige/30 shadow-sm self-start sm:self-center flex-shrink-0">

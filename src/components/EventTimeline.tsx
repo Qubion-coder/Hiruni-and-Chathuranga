@@ -4,7 +4,7 @@ import { Heart, MapPin, Utensils, Sparkles, Clock } from 'lucide-react';
 const events = [
   {
     time: '3.30 PM',
-    title: 'Wedding Ceremony',
+    title: 'Church Ceremony',
     description: 'The sacred sacrament of holy matrimony at St. Antony\'s Church, Kongodamulla, Katana.',
     icon: Heart,
     color: 'from-rose-400 to-rose-500'
